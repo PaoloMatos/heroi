@@ -1,14 +1,5 @@
 
 
-//let userName  =  getFirstName("Paolo  soares de Matos")
-//console.log("Seja bem vindo " + userName)
-
-//function getFirstName(name){
-  ///let firstName = name.split(" ")[0]
-  //return firstName
-//}
-
-
 
 function hank (vitorias, derrota ){
   let hankJogador  = vitorias - derrota
@@ -37,6 +28,6 @@ function hank (vitorias, derrota ){
 
 let vitoriaJogador = 55
 let derrotaJogador = 45
-let  resultado = hank(vitoriaJogador, derrotaJogador)
+const  resultado = hank(vitoriaJogador, derrotaJogador)
 
 console.log(" O Herói tem saldo de " + resultado.saldo + " está no nível de " + resultado.nivel )
